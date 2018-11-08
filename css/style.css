@@ -182,7 +182,7 @@ body {
 
 #inputTask {
 	flex: 1;
-	padding-left: 20px;
+	padding-left: 33px;
 	color: rgb(95, 95, 95);
 	font-size: 32px;
 	background-color: #fff;
@@ -205,10 +205,15 @@ body {
 	display: flex;
 	background-color: #fff;
 	align-items: center;
+	overflow: hidden;
+}
+
+input[type="checkbox"] {
+	margin: 0 10px;
 }
 
 .listItem li {
-	padding: 5px 0 5px 20px;
+	padding: 5px 0 5px 0px;
 	color: rgb(95, 95, 95);
 	font-size: 32px;
 	flex: 1;
@@ -219,11 +224,8 @@ body {
 
 .remove {
 	display: block;
-	max-height: 30px;
-}
-
-.remove:hover {
-	max-height: 40px;	
+	max-width: 20px;
+	margin-right: 10px;
 }
 
 /* Fonts */
